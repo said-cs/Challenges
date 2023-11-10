@@ -9,3 +9,5 @@ Write a function that takes in a list of contiguous blocks on a specific street 
 
 
 If there are multiple most optimal blocks, your function can return the index of any one of them.
+
+In the evolution of this project, two distinct solutions have been crafted. The first solution, while conceptually sound, exhibits a time complexity of O(n^2 * m) and a space complexity of O(n), leading to potential performance bottlenecks. Recognizing this, the second solution has been introduced with a focus on optimizing time and space complexities, providing a more efficient and scalable approach for finding the optimal apartment based on the maximum distance to the required facilities.
