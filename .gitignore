@@ -1,0 +1,11 @@
+# Virtual environment 
+venv/
+
+# Byte-compiled files
+__pycache__/
+
+# VScode specefic files
+.vscode/
+
+# macOs specific files
+.Ds_Store
