@@ -1,4 +1,4 @@
-from solution import calendarMatching#, updateCal, mergeCals, flattenCal, getMatchingAvaliabilities, timeToMin, minToTime
+from solution import calendarMatching, updateCal, mergeCals, flattenCal, getMatchingAvaliabilities, timeToMin, minToTime
 
 # Test cases
 def run_tests():
