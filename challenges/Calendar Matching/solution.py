@@ -11,6 +11,8 @@ def calendarMatching(calendar1, dailyBounds1, calendar2, dailyBounds2, meetingDu
 
     Returns:
         list: List of available slots for the meeting in [hh:mm] format.
+
+    O(c1 + c2) Time Complexity | O(c1 + c2) Space complexity, where c1 and c2 are the lengths of calendar1 and calendar2.
     """
     # Update clandars with daily bounds, merge them, flatten, and find avaliable time slots.
     updatedCal1 = updateCal(calendar1, dailyBounds1)
